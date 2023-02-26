@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="Style.css"> 
+  </head>
+
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <body>
+    <header>
+      <H1>Task List 2022  </H1>
+
+      <label for="product1">Select a product:</label>
+      <select id="product1" name="product1" onchange="updateDisplay()">
+        <option value="computer">Computer</option>
+        <option value="laptop">Laptop</option>
+        <option value="mouse">Mouse</option>
+      </select>
+
+      <br>
+      
+      <label for="product2">Select a product:</label>
+      <select id="product2" name="product2" onchange="updateDisplay()">
+        <option value="computer">Computer</option>
+        <option value="laptop">Laptop</option>
+        <option value="mouse">Mouse</option>
+      </select>
+
+      <br>
+
+      <label for="product3">Select a product:</label>
+      <select id="product3" name="product3" onchange="updateDisplay()">
+        <option value="computer">Computer</option>
+        <option value="laptop">Laptop</option>
+        <option value="mouse">Mouse</option>
+      </select>
+      
+      
+
+       <!-- container -->
+
+      <div class="container">
+        <div class="box right-box">
+          <h2>Right Box</h2>
+          <p>This is the content for the right box.</p>
+
+          <label for="product3">Select a product:</label>
+          <select id="product3" name="product3" onchange="updateDisplay()">
+            <option value="computer">Computer</option>
+            <option value="laptop">Laptop</option>
+            <option value="mouse">Mouse</option>
+          </select>
+          
+        </div>
+      </div>
+    <div id="display"></div>
+
+    <script src="script.js"></script>
+  </body>
+
+
+
+</html>
